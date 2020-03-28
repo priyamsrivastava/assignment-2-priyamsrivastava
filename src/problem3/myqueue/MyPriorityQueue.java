@@ -55,4 +55,12 @@ public class MyPriorityQueue {
 
         }
     }
+
+    public void show() {
+        Node temp = front;
+        while (temp != null) {
+            System.out.println(temp.getData());
+            temp = temp.getNext();
+        }
+    }
 }
