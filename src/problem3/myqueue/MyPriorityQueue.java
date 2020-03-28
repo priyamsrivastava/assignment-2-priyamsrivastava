@@ -63,4 +63,10 @@ public class MyPriorityQueue {
             temp = temp.getNext();
         }
     }
+
+    public void peek() {
+        System.out.println(front.getData());
+    }
+
+
 }
