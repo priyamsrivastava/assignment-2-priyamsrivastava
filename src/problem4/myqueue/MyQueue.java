@@ -63,5 +63,16 @@ public class MyQueue {
 
     }
 
+    public Node getTmp() {
 
+        return tmp;
+
+    }
+
+
+    public void setTmp(Node tmp) {
+
+        this.tmp = tmp;
+
+    }
 }
